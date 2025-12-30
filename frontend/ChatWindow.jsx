@@ -1,3 +1,6 @@
+// . Real-Time Chat Rendering with Auto-Scroll 
+     
+
 import { useEffect, useState, useRef } from "react";
 
 function ChatWindow() {

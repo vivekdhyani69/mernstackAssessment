@@ -1,3 +1,8 @@
+// . Optimizing Rendering
+// Suppose the chat window has 10,000 messages. Rendering all of them makes React UI very slow.
+//  👉 How would you optimize rendering so that only the latest 50 messages are visible, but older ones can be loaded on scroll-up?
+
+
 import { useState, useEffect } from "react";
 
 function ChatWindow1({ allMessages }) {
